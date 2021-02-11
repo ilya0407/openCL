@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="OpenCL Kernel Files">
+      <UniqueIdentifier>{8e11d3b3-b705-41bb-9d1d-b5ea1c6742ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="host\src\main.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="host\src\utils.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\AOCLUtils\opencl.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\AOCLUtils\options.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="device\Sobel_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Canny_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Kirsh_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Neg4_Laplas_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Neg8_Laplas_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Pos4_Laplas_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Pos8_Laplas_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Prewitt_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Roberts_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Robinson_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Scharr_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Canny_Bernsen_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Canny_Niblack_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Canny_Sauval_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Canny_MaxMin_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Canny_Otsu_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Kirsh_Bernsen_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Kirsh_Niblack_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Neg4_Laplas_Bernsen_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Neg4_Laplas_Niblack_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Neg8_Laplas_Bernsen_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Neg8_Laplas_Niblack_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Pos4_Laplas_Bernsen_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Pos4_Laplas_Niblack_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Pos8_Laplas_Bernsen_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Pos8_Laplas_Niblack_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Prewitt_Bernsen_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Prewitt_Niblack_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Roberts_Bernsen_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Roberts_Niblack_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Robinson_Bernsen_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Robinson_Niblack_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Scharr_Bernsen_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Scharr_Niblack_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Sobel_Bernsen_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+    <None Include="device\Sobel_Niblack_Hough.cl">
+      <Filter>OpenCL Kernel Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\test_images\1.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\..\..\test_images\1.bmp_lines.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\..\..\test_images\edge.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\..\..\test_images\edge3.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\..\..\test_images\edge4.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
